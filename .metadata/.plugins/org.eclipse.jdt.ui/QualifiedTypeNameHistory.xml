@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.time.Instant"/>
+<fullyQualifiedTypeName name="org.openhab.training.utils.TimeUtilities"/>
+<fullyQualifiedTypeName name="org.openhab.training.electricity.homenetwork.HomeElectricityNetwork"/>
+<fullyQualifiedTypeName name="org.openhab.training.electricity.provider.ElectricityProvider"/>
+<fullyQualifiedTypeName name="javax.net.ssl.HostnameVerifier"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ScheduledExecutorService"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="org.openhab.training.electricity.DynamicConsumer"/>
+</qualifiedTypeNameHistroy>

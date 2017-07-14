@@ -1,0 +1,35 @@
+package org.openhab.training.electricity.radio;
+
+import java.util.List;
+
+import org.openhab.training.electricity.consumer.ElectricityConsumer;
+import org.openhab.training.electricity.provider.ElectricityProvider;
+
+public class BasicRadio implements ElectricityConsumer {
+
+    int consumption = 5;
+
+    protected ElectricityProvider currentElectricityProvider;
+
+    @Override
+    public void startConsuming() {
+
+    }
+
+    @Override
+    public void stopConsuming() {
+
+    }
+
+    @Override
+    public void setCurrentProvider(ElectricityProvider provider) {
+
+    }
+
+    @Override
+    public List<ElectricityProvider> getAllAvailableProviders() {
+
+        return null;
+    }
+
+}

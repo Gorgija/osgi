@@ -1,0 +1,14 @@
+INDEX VERSION 1.130+C:\Users\gjorgji.georgievski\openhab2-master2\ws\.metadata\.plugins\org.eclipse.jdt.core
+1769474940.index
+2115684684.index
+319994359.index
+1493100481.index
+1002135098.index
+3952021076.index
+651755308.index
+882093707.index
+2539422526.index
+3643021953.index
+1682312759.index
+2369653093.index
+365120896.index

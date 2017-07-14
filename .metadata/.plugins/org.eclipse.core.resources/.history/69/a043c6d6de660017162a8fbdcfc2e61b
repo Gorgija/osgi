@@ -1,0 +1,7 @@
+package org.openhab.training.electricity.radio;
+
+public class BasicRadio {
+
+    int consumption = 5;
+
+}

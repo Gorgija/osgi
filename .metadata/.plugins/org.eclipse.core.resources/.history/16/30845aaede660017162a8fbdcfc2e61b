@@ -1,0 +1,9 @@
+package org.openhab.training.electricity.radio;
+
+
+
+
+
+public class ElectricityConsumer {
+    
+}

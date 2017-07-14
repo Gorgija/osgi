@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;org.openhab.training.helloosgi.modified&apos;" deleteContents="true" description="Delete resource &apos;org.openhab.training.helloosgi.modified&apos;" element1="/org.openhab.training.helloosgi.modified" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1499848204456"/>
+</session>

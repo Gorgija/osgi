@@ -1,0 +1,11 @@
+package org.openhab.training.electricity.homenetwork;
+
+import org.openhab.training.electricity.provider.ElectricityProvider;
+
+public class HomeElectricityNetwork implements ElectricityProvider {
+    
+    boolean provide(int value) {
+        return true;
+    }
+
+}

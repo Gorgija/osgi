@@ -1,0 +1,76 @@
+package org.openhab.training.electricity.tv;
+
+import java.util.List;
+
+import org.openhab.training.electricity.DynamicConsumer;
+import org.openhab.training.electricity.consumer.ElectricityConsumer;
+import org.openhab.training.electricity.provider.ElectricityProvider;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+public class TV implements ElectricityConsumer, DynamicConsumer, BundleActivator {
+
+    private ElectricityProvider provider;
+    private boolean start;
+    private boolean stop;
+
+    private static BundleContext context;
+
+    static BundleContext getContext() {
+        return context;
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
+     */
+    @Override
+    public void start(BundleContext bundleContext) throws Exception {
+        Activator.context = bundleContext;
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
+     */
+    @Override
+    public void stop(BundleContext bundleContext) throws Exception {
+        Activator.context = null;
+    }
+
+    @Override
+    public void providerAdded(ElectricityProvider provider) {
+
+    }
+
+    @Override
+    public void providerRemoved(ElectricityProvider provider) {
+        this.provider = null;
+    }
+
+    @Override
+    public void startConsuming() {
+
+    }
+
+    @Override
+    public void stopConsuming() {
+
+    }
+
+    @Override
+    public void setCurrentProvider(ElectricityProvider provider) {
+        if (provider == null) {
+            this.provider = provider;
+        }
+    }
+
+    @Override
+    public List<ElectricityProvider> getAllAvailableProviders() {
+
+        return null;
+    }
+
+}

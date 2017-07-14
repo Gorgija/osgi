@@ -1,0 +1,9 @@
+package org.openhab.training.electricity;
+
+public interface DynamicConsumer {
+
+    void providerAdded(ElectricityProvider provider);
+
+    void providerRemoved(ElectricityProvider provider);
+
+}

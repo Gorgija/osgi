@@ -1,0 +1,9 @@
+package org.openhab.training.electricity.radio;
+
+import org.openhab.training.electricity.consumer.ElectricityConsumer;
+
+public class BasicRadio implements ElectricityConsumer {
+
+    int consumption = 5;
+
+}

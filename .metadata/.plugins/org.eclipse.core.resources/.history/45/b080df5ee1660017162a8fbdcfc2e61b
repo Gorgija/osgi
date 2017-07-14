@@ -1,0 +1,42 @@
+package org.openhab.training.electricity.radio;
+
+import java.util.List;
+
+import org.openhab.training.electricity.consumer.ElectricityConsumer;
+import org.openhab.training.electricity.provider.ElectricityProvider;
+
+public class BasicRadio implements ElectricityConsumer {
+
+    protected final int RADIO_CONSUMPTION = 5;
+
+    protected final int BROADCAST_PERIOD = 5;
+
+    protected ElectricityProvider currentElectricityProvider;
+
+    List<ElectricityProvider> availableProviders;
+    
+    
+    BundleContext bundleContext = FrameworkUtil.getBundle(this.getClass()).getBundleContext();
+
+    @Override
+    public void startConsuming() {
+
+    }
+
+    @Override
+    public void stopConsuming() {
+
+    }
+
+    @Override
+    public void setCurrentProvider(ElectricityProvider provider) {
+
+    }
+
+    @Override
+    public List<ElectricityProvider> getAllAvailableProviders() {
+
+        return null;
+    }
+
+}

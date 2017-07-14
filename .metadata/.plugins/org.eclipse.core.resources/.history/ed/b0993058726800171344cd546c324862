@@ -1,0 +1,37 @@
+package org.openhab.training.electricity.tv;
+
+import java.util.List;
+
+import org.openhab.training.electricity.DynamicConsumer;
+import org.openhab.training.electricity.consumer.ElectricityConsumer;
+import org.openhab.training.electricity.provider.ElectricityProvider;
+
+public class TV implements ElectricityConsumer, DynamicConsumer {
+
+    public void providerAdded(ElectricityProvider provider) {
+
+    }
+
+    public void providerRemoved(ElectricityProvider provider) {
+
+    }
+    
+    public void startConsuming() {
+        
+    }
+
+    public void stopConsuming() {
+        
+    }
+
+    public void setCurrentProvider(ElectricityProvider provider) {
+        
+    }
+
+    public List<ElectricityProvider> getAllAvailableProviders() {
+        
+        
+        return null;
+    }
+
+}

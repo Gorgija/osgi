@@ -1,0 +1,8 @@
+package org.openhab.training.electricity.tv;
+
+import org.openhab.training.electricity.consumer.ElectricityConsumer;
+import org.openhab.training.electricity.*;
+
+public class TV implements ElectricityConsumer, DynamicConsumer {
+
+}

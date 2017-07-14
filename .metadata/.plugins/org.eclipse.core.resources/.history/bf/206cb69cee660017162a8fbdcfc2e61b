@@ -1,0 +1,8 @@
+package org.openhab.training.electricity.battery;
+
+
+
+
+public class Battery implements ElectricityProvider {
+    
+}
